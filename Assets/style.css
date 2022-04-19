@@ -1,5 +1,6 @@
 *{
    color: white; 
+   font-family: 'Roboto', sans-serif;
 }
 
 .va {
@@ -28,6 +29,7 @@ hr{
 #image-hero{
     margin-bottom: 10px;
     transition: transform 450ms;
+    position: relative;
     
 }
 
@@ -40,6 +42,13 @@ hr{
     color: #060606;
     padding: 3px;
     border-radius: 10px;
+}
+
+#clickBtn{
+    font-weight: 600;
+    color:white;
+    background-color:#24272c;
+    padding: 10px;
 }
 
 .title{
