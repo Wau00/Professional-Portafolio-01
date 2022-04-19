@@ -8,12 +8,13 @@
 }
 
 a{
-    color: #3b7adf;
+    color: white;
+    transition: transform 450ms;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #3b7adf;
+    transform: translateY(-5px);
 }
 
 hr{
@@ -25,13 +26,20 @@ hr{
 }
 
 #image-hero{
-    border-color: #3b7adf;
     margin-bottom: 10px;
-    transition: transform 250ms;
+    transition: transform 450ms;
+    
 }
 
-#image-hero{
+#image-hero:hover{
     transform: translateY(-5px);
+}
+
+#downloadCv{
+    background-color: white;
+    color: #060606;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 .title{
@@ -40,6 +48,7 @@ hr{
 
 .subtitle{
     color: white;
+    
 }
 
 .navbar .navbar-item {
@@ -54,6 +63,10 @@ hr{
 .navbar .navbar-item:hover{
     background: transparent;
     color: white;
+}
+
+.navbar-dropdown{
+background-color: #060606;
 }
 
 .blog-post {
